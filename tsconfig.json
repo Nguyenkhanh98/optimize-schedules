@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2017",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "paths": {    
+        "@/*": [
+          "src/*"
+        ],
+        "@configs": [
+          "src/configs"
+        ],
+        "@environments":["src/configs/environments"],
+        "@cores/*": ["src/cores/*"],
+        "@common":["src/common"],
+        "@constant":["src/_constant"],
+        "@helpers/*": ["src/helpers/*"],
+        "@interfaces/*": ["src/interfaces/*"]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      ".npm",
+      "src/**/*.spec.ts"
+    ],
+    "include": [
+      "src",
+    ]
+  
+  }
