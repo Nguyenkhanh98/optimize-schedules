@@ -8,8 +8,7 @@ Testing Project
 
 2. Prerequisites
 - Window OS (for batch file)
-- The ```input file``` must be everywhere inside ./dist
-- Change ```input file path```in the last argument of build's script in run.bat
+
 
 # Build and Test
 
@@ -48,7 +47,9 @@ Testing Project
 
 ## With batch file
 1. Run ```build.bat``` file to build
-2. Add input file inside ./dist and edit its path as last argument in run.bat file
+2. Add input file and edit its path as last argument in run.bat file
+- The ```input file``` must be everywhere inside ./dist
+- Change ```input file path```in the last argument of run script in run.bat
 
 3. Run ```run.bat``` file to run project
 
