@@ -32,7 +32,10 @@ Testing Project
 ```bash
      yarn build
 ```
-
+- Requirement action:
+       Add input file and edit its path as last argument in run.bat file
+     + The ```input file``` must be everywhere inside ./dist
+     + Change ```input file path``` in the last argument of run script in run.bat
 - run 
 
 ```bash
