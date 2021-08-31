@@ -60,7 +60,10 @@ Testing Project
 ```bash
           
 ```
- 
+#NOTE 
+
+- About the input file, I only hanlde one case : a json file inside a folder, and the folder must be inside ./dist
+Example: The input.json file is inside data folder, data folder is inside ./dist. The agrugment in script would be data/input.json
 # Work Flow
 
 # Contribute
