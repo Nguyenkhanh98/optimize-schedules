@@ -19,18 +19,18 @@ Testing Project
 - Install Dependency:
 
 ```bash
-     yarn install
+     npm install || yarn install
 ```
 
 - Start for development:
 
 ```bash
-     yarn start:dev
+      npm run start:dev || yarn start:dev
 ```
 
 - Build for production
 ```bash
-     yarn build
+     npm run build || yarn build
 ```
 - Requirement action:
        Add input file and edit its path as last argument in run.bat file
@@ -39,13 +39,13 @@ Testing Project
 - run 
 
 ```bash
-     yarn start
+     npm run start || yarn start
 ```
 
 - test 
 
 ```bash
-     yarn test
+     npm run test || yarn test
 ```
 
 ## With batch file
